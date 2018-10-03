@@ -1,5 +1,23 @@
-# Whitespace Wizard
+# simple-react-starter
 
-![Whitespace Wizard Logo](logo.png?raw=true "Our Logo")
+⚛️ An extremely slim boilerplate for a React/Express project.
 
-Project that will remove and add whitespace from CSS and HTML code. Uses react?
+## Including:
+
+- React 16
+- Express
+- Webpack 4 (+ Dev Server, Hot Reload)
+- Babel 7 (+ Plugins)
+- ESLint (+ precommit hooks w/ Husky)
+- Prettier
+
+## How To Use
+
+- For development, use the following scripts:
+  - Launch Nodemon with ESLint for the Backend: `npm run dev:backend`
+  - Launch Webpack Dev Server for Frontend: `npm run dev:frontend`
+  - Or, launch both concurrently with: `npm run dev`
+- For production:
+  - Lint and Build with `npm run build`
+  - Serve the built files in `/dist` with `npm start`
+  - Or, build the docker container
